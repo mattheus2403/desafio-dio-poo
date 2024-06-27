@@ -32,10 +32,10 @@ public class Main {
 		Bootcamp bootcamp = new Bootcamp();
 		bootcamp.setNome("Santander Bootcamp Java");
 		bootcamp.setDescricao("Descrição Bootcamp Java");
-		bootcamp.getConteudos().add(curso1);
-		bootcamp.getConteudos().add(curso2);
-		bootcamp.getConteudos().add(mentoria);
-		
+//		bootcamp.getConteudos().add(curso1);
+//		bootcamp.getConteudos().add(curso2);
+//		bootcamp.getConteudos().add(mentoria);
+//		
 		//cria novo dev
 		Dev devMattheus = new Dev();
 		devMattheus.setNome("Matheus");
