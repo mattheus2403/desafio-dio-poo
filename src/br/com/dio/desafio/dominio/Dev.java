@@ -19,7 +19,7 @@ public class Dev {
 		bootcamp.getDevsInscritos().add(this);
 	}
 	
-	//adiciona a lista de conteudos inscritos para a lista de conteudos concluidos
+	//adiciona o primeiro conteúdo encontrado na lista de conteúdos inscritos a lista de conteúdos concluidos
 	public void progredir() {
 		Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
 		if(conteudo.isPresent()) {
